@@ -1,0 +1,26 @@
+body { background: #140500;
+	}
+
+	.background    { background: url("../Images/fireland2.gif");
+                 table-layout: fixed;
+                 border-spacing: 0;   }
+.background td { padding: 0;          }
+.lava          { background: #d61e11; }
+.wall          { background: #7c6863; }
+.coin		   {background: #4750ef; }
+.enemy         {background: #ad8726; }
+
+.actor {position: absolute; }
+.player { background: white; }
+.lost .player {
+  background: #a5a0a0;
+}
+.won .player {
+  box-shadow: -4px -7px 8px #f9b82a, 4px -7px 8px #f9b82a;
+}
+.game {
+  overflow: hidden;
+  max-width: 800px;
+  max-height: 550px;
+  position: relative;
+}
